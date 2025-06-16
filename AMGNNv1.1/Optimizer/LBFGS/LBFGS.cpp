@@ -1,8 +1,5 @@
 #include"../../Differentiation.cpp"
 
-std::mutex GradientMutex;
-std::condition_variable cvar;
-
 class LBFGS{
 
     int weights;
