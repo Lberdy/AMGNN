@@ -1,4 +1,4 @@
-# AMGNNv1.1
+# AMGNNv1.1.1
 Add comment
 More actions
 AMGNN - My custom neural network framework
