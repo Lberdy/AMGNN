@@ -1,8 +1,11 @@
 # AMGNN
 # AMGNN – Amine Guettara Neural Network
 Hi! This is AMGNN, my custom neural network framework built entirely in C++ (from scratch).
+
 Current Version : 1.1.2
+
 My Email : guettaraamine2@gmail.com
+
 Features
 
      Optimization Methods:
