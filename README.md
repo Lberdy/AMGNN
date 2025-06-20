@@ -32,7 +32,6 @@ Features
      Multithreaded Training:
         Threading for weights
         Threading for batches
-        Threading for stochastic samples
         Thread usage is fully configurable
         Efficient Thread Pooling to adapt to your CPU
         
