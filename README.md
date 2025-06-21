@@ -44,6 +44,6 @@ Features
     
  Coming Soon
  
-     Convolutional layer
+     Convolutional Layer – postponed until I get a GPU... my CPU is crying already 😅
      Full Documentation covering the framework’s internal structure, setup, and examples
 
