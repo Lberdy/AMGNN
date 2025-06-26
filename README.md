@@ -1,15 +1,15 @@
 
 # AMGNN - A Minimal Deep Learning Framework from Scratch
 
-AMGNN (Amine's Minimal General Neural Network) is a C++ deep learning framework developed purely from scratch, without relying on external machine learning libraries. It was built with the goal of deeply understanding how neural networks, backpropagation, optimization, and training pipelines work under the hood.
+AMGNN (Amine Guettara Neural Network) is a C++ deep learning framework developed purely from scratch, without relying on external machine learning libraries. It was built with the goal of deeply understanding how neural networks, backpropagation, optimization, and training pipelines work under the hood.
 
-> ⚠️ This project is not intended to compete with TensorFlow or PyTorch, but to serve as a **learning resource** and **low-level educational framework** for those interested in how AI works at its core.
+>  This project is not intended to compete with TensorFlow or PyTorch, but to serve as a **learning resource** and **low-level educational framework** for those interested in how AI works at its core.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ Fully custom implementation of:
+-  Fully custom implementation of:
   - Neural networks (NN)
   - Convolutional Neural Networks (CNN)
   - Backpropagation
@@ -19,30 +19,13 @@ AMGNN (Amine's Minimal General Neural Network) is a C++ deep learning framework 
   - Activation functions
   - Numerical differentiation using interpolation-based methods
 
-- 🧠 Focused on understanding:
+-  Focused on understanding:
   - Matrix operations
   - Derivatives
   - Optimizer behavior
   - Training dynamics without hardware acceleration
 
-- 🎯 Written in pure C++ with OpenCV used only for image input/output.
-
----
-
-## 🧩 Structure
-
-```
-AMGNN/
-│
-├── Layers/               # Fully connected, convolutional, and more
-├── Activations/          # Sigmoid, ReLU, Softmax, etc.
-├── LossFunctions/        # MSE, CrossEntropy, etc.
-├── Optimizer/            # Custom optimization methods (SGD, Adam, L-BFGS)
-├── Differentiation/      # Numerical gradient calculation
-├── AMGNN.cpp             # Main engine and training API
-├── Utils/                # Image reader, helper functions
-└── main.cpp              # Example usage and test code
-```
+-  Written in pure C++ with OpenCV used only for image input/output.
 
 ---
 
@@ -53,7 +36,7 @@ AMGNN/
 
 ---
 
-## 🧪 Example Usage
+##  Example Usage
 
 ```cpp
 #include "AMGNNv1.2/AMGNN.cpp"
@@ -62,14 +45,13 @@ AMGNN/
 std::vector<cv::Mat> inputs = AMGNN::readImage(...); // normalized to [0,1]
 std::vector<std::vector<double>> labels = ...;
 
-CNN cnn;
-AMGNN model(cnn, Loss_Function::CROSS_ENTROPY, Optimizers::ADAM);
+AMGNN AMGNN::ConvolutionalNeuralNetwork model(.....)
 model.train(inputs, labels);
 ```
 
 ---
 
-## 📚 Educational Purpose
+##  Educational Purpose
 
 This project was built as a personal challenge to:
 
@@ -82,7 +64,7 @@ If you're interested in how frameworks like PyTorch work under the hood, this pr
 
 ---
 
-## 📝 Future Work
+##  Future Work
 
 Although no longer actively developed, ideas for future improvements (for educational exploration):
 
@@ -93,19 +75,19 @@ Although no longer actively developed, ideas for future improvements (for educat
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 > This framework is **not optimized** for real-world usage or large-scale training. It lacks GPU acceleration and advanced parallelism, and is intended for **learning purposes only**.
 
 ---
 
-## 📜 License
+## License
 
 This project is open-source and available under the MIT License. Contributions, forks, and educational use are welcome!
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Special thanks to:
 - All the amazing tutorials, YouTube channels, and open-source developers that inspired this project.
@@ -114,10 +96,10 @@ Special thanks to:
 
 ---
 
-## 💬 Feedback
+## Feedback
 
 If you find this project interesting or useful, feel free to ⭐ the repo, open issues, or ask questions.
 
 ---
 
-> Made with patience, frustration, and curiosity by **Amine Guettara** 💡
+> Made with patience, frustration, and curiosity by **Amine Guettara**
