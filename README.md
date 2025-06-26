@@ -29,7 +29,7 @@ AMGNN (Amine Guettara Neural Network) is a C++ deep learning framework developed
 
 ---
 
-## 🔧 Dependencies
+## Dependencies
 
 - **C++17 or later**
 - **OpenCV** for image processing (only used in image loading)
