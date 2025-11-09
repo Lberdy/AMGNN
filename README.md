@@ -60,8 +60,6 @@ This project was built as a personal challenge to:
 - Write an end-to-end training loop with gradient-based optimization
 - Get familiar with numerical stability and low-level issues
 
-If you're interested in how frameworks like PyTorch work under the hood, this project is a valuable resource.
-
 ---
 
 ##  Future Work
